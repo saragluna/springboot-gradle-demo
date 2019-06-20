@@ -1,3 +1,19 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Cache of project
+.gradletasknamecache
+
+# IntelliJ
+out/
+
+*.iml
+*.ipr
+*.iws
+
 # Compiled class file
 *.class
 
@@ -21,3 +37,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!**/gradle-wrapper.jar
